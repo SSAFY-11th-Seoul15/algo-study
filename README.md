@@ -1,7 +1,7 @@
 
 # <div align="center"> 👻SSAFY 코테 스터디👻 </div>
 ### <div align="center">B형 부터 일반 코테까지 준비하는 스터디</div>  
-<div align="center">2024.01.19 - 2024. . </div> 
+<div align="center">2024.01.19(금) - 2024. .() </div> 
 
 </br></br>
 
@@ -88,17 +88,17 @@
 ### 🐌 0주차 : 알고리즘 유형 리마인드
 |사이트|유형|문제번호|문제이름|알고리즘 유형|담당자|
 |------|----|--------|--------|------------|------|
-|BOJ|과제|2563|[색종이](https://www.acmicpc.net/problem/2563)|구현|-|
-|BOJ|과제|14916|[거스름돈](https://www.acmicpc.net/problem/14916)|dp|-|
-|BOJ|과제|17413|[단어 뒤집기 2](https://www.acmicpc.net/problem/17413)|자료구조|-|
-|BOJ|과제|10451|[순열 사이클](https://www.acmicpc.net/problem/10451)|그래프|-|
-|BOJ|과제|1439|[뒤집기](https://www.acmicpc.net/problem/1439)|자료구조|-|
-|BOJ|과제|1449|[수리공 항승](https://www.acmicpc.net/problem/1449)|문자열|-|
-|BOJ|과제|14244|[트리 만들기](https://www.acmicpc.net/problem/14244)|트리|-|
-|BOJ|과제|7795|[먹을 것인가 먹힐 것인가](https://www.acmicpc.net/problem/7795)|이분탐색|-|
-|BOJ|과제|2167|[2차원 배열의 합](https://www.acmicpc.net/problem/2167)|누적합|-|
-|BOJ|과제|11582|[치킨 TOP N](https://www.acmicpc.net/problem/11582)|분할정복|-|
-|BOJ|과제|2295|[세 수의 합](https://www.acmicpc.net/problem/2295)|중간에서 만나기|-|
+|BOJ|과제|2563|[색종이](https://www.acmicpc.net/problem/2563)|구현|<div align="center">-</div>|
+|BOJ|과제|14916|[거스름돈](https://www.acmicpc.net/problem/14916)|dp|<div align="center">-</div>|
+|BOJ|과제|17413|[단어 뒤집기 2](https://www.acmicpc.net/problem/17413)|자료구조|<div align="center">-</div>|
+|BOJ|과제|10451|[순열 사이클](https://www.acmicpc.net/problem/10451)|그래프|<div align="center">-</div>|
+|BOJ|과제|1439|[뒤집기](https://www.acmicpc.net/problem/1439)|자료구조|<div align="center">-</div>|
+|BOJ|과제|1449|[수리공 항승](https://www.acmicpc.net/problem/1449)|문자열|<div align="center">-</div>|
+|BOJ|과제|14244|[트리 만들기](https://www.acmicpc.net/problem/14244)|트리|<div align="center">-</div>|
+|BOJ|과제|7795|[먹을 것인가 먹힐 것인가](https://www.acmicpc.net/problem/7795)|이분탐색|<div align="center">-</div>|
+|BOJ|과제|2167|[2차원 배열의 합](https://www.acmicpc.net/problem/2167)|누적합|<div align="center">-</div>|
+|BOJ|과제|11582|[치킨 TOP N](https://www.acmicpc.net/problem/11582)|분할정복|<div align="center">-</div>|
+|BOJ|과제|2295|[세 수의 합](https://www.acmicpc.net/problem/2295)|중간에서 만나기|<div align="center">-</div>|
 
 </br>
 
@@ -109,19 +109,30 @@
 |BOJ|화|1194|[달이 차오른다, 가자.](https://www.acmicpc.net/problem/1194)|미공개|박소미|
 |BOJ|수|17135|[캐슬 디펜스](https://www.acmicpc.net/problem/17135)|미공개|이진석|
 |BOJ|목|15686|[치킨 배달](https://www.acmicpc.net/problem/15686))|미공개|이재홍|
-|BOJ|금|미정|[미정](https://www.acmicpc.net/problem)|미공개|조수훈|
-|BOJ|과제|미공개|미공개|미공개|-|
+|BOJ|금|1987|[알파벳](https://www.acmicpc.net/problem/1987)|미공개|조수훈|
+|BOJ|과제|11559|[Puyo Puyo](https://www.acmicpc.net/problem/11559)|미공개|<div align="center">-</div>|
+|BOJ|과제|6987|[월드컵](https://www.acmicpc.net/problem/6987)|미공개|<div align="center">-</div>|
+|BOJ|과제|15898|[피아의 아틀리에 신비한 대회의 연금술사](https://www.acmicpc.net/problem/15898)|미공개|<div align="center">-</div>|
+|BOJ|과제|1261|[알고스팟](https://www.acmicpc.net/problem/1261)|미공개|<div align="center">-</div>|
+|BOJ|과제|2146|[다리 만들기](https://www.acmicpc.net/problem/2146)|미공개|<div align="center">-</div>|
+|BOJ|과제|1600|[말이 되고픈 원숭이](https://www.acmicpc.net/problem/1600)|미공개|<div align="center">-</div>|
+|BOJ|과제|2933|[미네랄](https://www.acmicpc.net/problem/2933)|미공개|<div align="center">-</div>|
+|BOJ|과제|21608|[상어 초등학교](https://www.acmicpc.net/problem/21608)|미공개|<div align="center">-</div>|
+|BOJ|과제|1799|[비숍](https://www.acmicpc.net/problem/1799)|미공개|<div align="center">-</div>|
+|BOJ|과제|16987|[계란으로 계란치기](https://www.acmicpc.net/problem/16987)|미공개|<div align="center">-</div>|
+|BOJ|과제|9663|[N-Queen](https://www.acmicpc.net/problem/9663)|미공개|<div align="center">-</div>|
+|BOJ|과제|5373|[큐빙](https://www.acmicpc.net/problem/5373)|미공개|<div align="center">-</div>|
 
 </br>
 
 ### 🐌 2주차 : 자료구조 연습
 |사이트|유형|문제번호|문제이름|알고리즘 유형|담당자|
 |------|----|--------|--------|------------|------|
-|BOJ|월|미정|[미정](https://www.acmicpc.net/problem)|미공개||
-|BOJ|화|미정|[미정](https://www.acmicpc.net/problem)|미공개||
-|BOJ|수|미정|[미정](https://www.acmicpc.net/problem)|미공개||
-|BOJ|목|미정|[미정](https://www.acmicpc.net/problem)|미공개||
-|BOJ|금|미정|[미정](https://www.acmicpc.net/problem)|미공개||
+|BOJ|월|9202|[Boggle](https://www.acmicpc.net/problem/9202)|미공개|<div align="center">박소미</div>|
+|BOJ|화|미정|[미정](https://www.acmicpc.net/problem)|미공개|<div align="center">이진석</div>|
+|BOJ|수|미정|[미정](https://www.acmicpc.net/problem)|미공개|<div align="center">이재홍</div>|
+|BOJ|목|미정|[미정](https://www.acmicpc.net/problem)|미공개|<div align="center">조수훈</div>|
+|BOJ|금|미정|[미정](https://www.acmicpc.net/problem)|미공개|<div align="center">박소미</div>|
 |BOJ|과제|미공개|미공개|미공개|-|
 
 </br>
@@ -129,11 +140,11 @@
 ### 🐌 3주차 : 랜덤 연습
 |사이트|유형|문제번호|문제이름|알고리즘 유형|담당자|
 |------|----|--------|--------|------------|------|
-|BOJ|월|미정|[미정](https://www.acmicpc.net/problem)|미공개||
-|BOJ|화|미정|[미정](https://www.acmicpc.net/problem)|미공개||
-|BOJ|수|미정|[미정](https://www.acmicpc.net/problem)|미공개||
-|BOJ|목|미정|[미정](https://www.acmicpc.net/problem)|미공개||
-|BOJ|금|미정|[미정](https://www.acmicpc.net/problem)|미공개||
+|BOJ|월|미정|[미정](https://www.acmicpc.net/problem)|미공개|<div align="center">-</div>|
+|BOJ|화|미정|[미정](https://www.acmicpc.net/problem)|미공개|<div align="center">-</div>|
+|BOJ|수|미정|[미정](https://www.acmicpc.net/problem)|미공개|<div align="center">-</div>|
+|BOJ|목|미정|[미정](https://www.acmicpc.net/problem)|미공개|<div align="center">-</div>|
+|BOJ|금|미정|[미정](https://www.acmicpc.net/problem)|미공개|<div align="center">-</div>|
 |BOJ|과제|미공개|미공개|미공개|-|
 
 </br>
@@ -141,11 +152,11 @@
 ### 🐌 4주차 : B형 기출
 |사이트|유형|문제번호|문제이름|알고리즘 유형|담당자|
 |------|----|--------|--------|------------|------|
-|BOJ|월|미정|[미정](https://www.acmicpc.net/problem)|미공개||
-|BOJ|화|미정|[미정](https://www.acmicpc.net/problem)|미공개||
-|BOJ|수|미정|[미정](https://www.acmicpc.net/problem)|미공개||
-|BOJ|목|미정|[미정](https://www.acmicpc.net/problem)|미공개||
-|BOJ|금|미정|[미정](https://www.acmicpc.net/problem)|미공개||
+|BOJ|월|미정|[미정](https://www.acmicpc.net/problem)|미공개|<div align="center">-</div>|
+|BOJ|화|미정|[미정](https://www.acmicpc.net/problem)|미공개|<div align="center">-</div>|
+|BOJ|수|미정|[미정](https://www.acmicpc.net/problem)|미공개|<div align="center">-</div>|
+|BOJ|목|미정|[미정](https://www.acmicpc.net/problem)|미공개|<div align="center">-</div>|
+|BOJ|금|미정|[미정](https://www.acmicpc.net/problem)|미공개|<div align="center">-</div>|
 |BOJ|과제|미공개|미공개|미공개|-|
 
 </br>
