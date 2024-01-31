@@ -125,10 +125,10 @@ week01
 |사이트|유형|문제번호|문제이름|알고리즘 유형|담당자|
 |------|----|--------|--------|------------|------|
 |BOJ|월|9202|[Boggle](https://www.acmicpc.net/problem/9202)|미공개|<div align="center">박소미</div>|
-|BOJ|화|미정|[미정](https://www.acmicpc.net/problem)|미공개|<div align="center">이진석</div>|
-|BOJ|수|미정|[미정](https://www.acmicpc.net/problem)|미공개|<div align="center">이재홍</div>|
+|BOJ|화|미정|[가운데를 말해요](https://www.acmicpc.net/problem/1655)|미공개|<div align="center">이진석</div>|
+|BOJ|수|미정|[나는야 포켓몬 마스터 이다솜](https://www.acmicpc.net/problem/1620)|미공개|<div align="center">이재홍</div>|
 |BOJ|목|미정|[미정](https://www.acmicpc.net/problem)|미공개|<div align="center">조수훈</div>|
-|BOJ|금|미정|[미정](https://www.acmicpc.net/problem)|미공개|<div align="center">박소미</div>|
+|BOJ|금|미정|[강수량](https://www.acmicpc.net/problem/2094)|미공개|<div align="center">박소미</div>|
 |BOJ|과제|미공개|미공개|미공개|-|
 
 </br>
