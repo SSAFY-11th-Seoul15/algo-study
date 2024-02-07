@@ -1,0 +1,65 @@
+입력: 1 <= N <= 500,000 , 1<= 탑의 높이 <= 100,000,000
+출력: 발사한 레이저 신호를 수신한 탑들의 번호
+
+
+#아이디어
+히스토그램을 스택으로 푼 방식이랑 유사하게 풀이하였다.
+탑들을 스택에 넣으면서 현재 탑보다 전의 탑의 높이가 작다면 스택에 있는
+탑들을 빼주면서 해당 탑과 현재 탑을 비교한다.
+비교해서 현재탑의 높이랑 같거나 큰탑이라면 뺴지 않고 멈춘다.
+
+연속적이면서,전의 값들과 비교해가면서 
+최댓값이나 최솟값을 업데이트 해야한다면 
+스택을 떠올리면 좋을거같다.
+
+
+
+```java
+import java.util.*;
+import java.io.*;
+
+public class Main {
+
+	static int [] arr;
+	static Stack<Integer> stack = new Stack<>();
+	public static void main(String[] args) throws Exception{
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st;
+		st = new StringTokenizer(br.readLine());
+		int N = Integer.parseInt(st.nextToken());
+		arr=  new int[N+1];
+		st = new StringTokenizer(br.readLine());
+		for(int i =1;i < N+1;i++) {
+			arr[i] = Integer.parseInt(st.nextToken());
+		}
+//		stack.add(0);
+		stack.add(1);
+		System.out.print(0+" ");
+		int idx = 0;
+		for(int i = 2; i< N+1;i++) {
+			if(arr[i-1] < arr[i]) {
+				while(!stack.isEmpty()) {
+					idx = stack.peek();
+					if(arr[i] < arr[idx]) {
+						break;
+					}
+					stack.pop();
+				}
+				if(arr[idx] < arr[i]) {
+					System.out.print(0+" ");
+					stack.add(i);
+					continue;
+				}
+				System.out.print(idx+" ");
+				stack.add(i);
+			}else {
+				System.out.print(i-1+" ");
+				stack.add(i);
+			}
+			
+	
+		}
+		
+	}
+}
+```
