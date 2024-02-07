@@ -1,4 +1,3 @@
-
 # <div align="center"> 👻SSAFY 코테 스터디👻 </div>
 ### <div align="center">B형 부터 일반 코테까지 준비하는 스터디</div>  
 <div align="center">2024.01.19(금) - 2024. .() </div> 
@@ -152,11 +151,11 @@ week01
 ### 🐌 3주차 : 랜덤 연습
 |사이트|유형|문제번호|문제이름|담당자|
 |------|----|--------|--------|------|
-|BOJ|월|미정|[미정](https://www.acmicpc.net/problem)|<div align="center">-</div>|
-|BOJ|화|미정|[미정](https://www.acmicpc.net/problem)|<div align="center">-</div>|
-|BOJ|수|미정|[미정](https://www.acmicpc.net/problem)|<div align="center">-</div>|
-|BOJ|목|미정|[미정](https://www.acmicpc.net/problem)|<div align="center">-</div>|
-|BOJ|금|미정|[미정](https://www.acmicpc.net/problem)|<div align="center">-</div>|
+|BOJ|월|17143|[낚시왕](https://www.acmicpc.net/problem/17143)|<div align="center">이진석</div>|
+|BOJ|화|2493|[탑](https://www.acmicpc.net/problem/2493)|<div align="center">이재홍</div>|
+|BOJ|수|1062|[가르침](https://www.acmicpc.net/problem/1062)|<div align="center">조수훈</div>|
+|BOJ|목|11062|[카드 게임](https://www.acmicpc.net/problem/11062)|<div align="center">박소미</div>|
+|BOJ|금|14238|[출근 기록](https://www.acmicpc.net/problem/14238)|<div align="center">이진석</div>|
 |BOJ|과제|미공개|미공개|<div align="center">-</div>|
 
 </br>
