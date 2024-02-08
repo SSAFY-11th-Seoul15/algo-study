@@ -1,13 +1,14 @@
 # <div align="center"> 👻SSAFY 코테 스터디👻 </div>
 ### <div align="center">B형 부터 일반 코테까지 준비하는 스터디</div>  
-<div align="center">2024.01.19(금) - 2024. .() </div> 
+<div align="center">2024.01.19(금) - yyyy.MM.dd() </div> 
 
 </br></br>
+
 
 ## 😎 스터디 멤버
 |<img src="https://avatars.githubusercontent.com/u/74345771?v=4" width=120 height=120>|<img src="https://avatars.githubusercontent.com/u/82464990?v=4" width=120 height=120>|<img src="https://avatars.githubusercontent.com/u/29710431?v=4" width=120 height=120>|<img src="https://avatars.githubusercontent.com/u/55419868?v=4" width=120 height=120>|
 |-------|--------|--------|-------|
-|<div align="center">[박소미](https://github.com/fsm12)</div>|<div align="center">[조수훈](https://github.com/s2hoon)</div>|<div align="center">[이진석](https://github.com/jinseok-kr)</div>|<div align="center">[이재홍](https://github.com/compasstar)</div>|
+|<div align="center">[박소미](https://github.com/fsm12) <br> [![Solved.ac 프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=fsm1204)](https://solved.ac/fsm1204)</div>|<div align="center">[조수훈](https://github.com/s2hoon) <br> [![Solved.ac 프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=s2hoon)](https://solved.ac/s2hoon)</div>|<div align="center">[이진석](https://github.com/jinseok-kr) <br> [![Solved.ac 프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=tjrl1225)](https://solved.ac/tjrl1225)</div>|<div align="center">[이재홍](https://github.com/compasstar) <br> [![Solved.ac 프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=7stud)](https://solved.ac/7stud)</div>|
 
 </br></br>
 
