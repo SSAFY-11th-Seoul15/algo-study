@@ -14,35 +14,36 @@ public class Main6549 {
 
     private static int getMax(int i, int j){
         // i와 j 사이중에 가장 작은 높이 찾아서 mid로 설정
-        int midIdx = i;
+        int midIdx = i + N;
         int left = i  + N ;
         int right = j  + N ;
+        
         while(left<=right){
             if(left%2==1){
-                if(arr[midIdx] > arr[left/2]) {
-                    midIdx = left/2;
+                if(arr[segtree[midIdx]] > arr[segtree[left]]) {
+                    midIdx = left;
                 }
                 left+=1;
             }
             if(right%2==0){
-                if(arr[midIdx] >arr[right/2]) {
-                    midIdx = right/2;
+                if(arr[segtree[midIdx]] >arr[segtree[right]]) {
+                    midIdx = right;
                 }
                 right-=1;
             }
             left/=2;
             right/=2;
         }
-        int width = arr[midIdx] * (i-j+1);
+        int width = arr[segtree[midIdx]] * (i-j+1);
 
         int tmp = 0;
         //mid 를 기준으로 분할정복
-        if( i < midIdx){
-            tmp = getMax(i,midIdx-1);
+        if( i < segtree[midIdx]){
+            tmp = getMax(i,segtree[midIdx]-1);
             width = Math.max(width, tmp);
         }
-        if( midIdx < j){
-            tmp =getMax(midIdx+1,j);
+        if( segtree[midIdx] < j){
+            tmp =getMax(segtree[midIdx]+1,j);
             width = Math.max(width, tmp);
         }
 
@@ -73,7 +74,7 @@ public class Main6549 {
         }
         System.out.println(Arrays.toString(segtree));
 
-        getMax(0, N-1);
+        System.out.println(getMax(0,N-1));
         
 
     }
