@@ -53,7 +53,7 @@ public class Main17143 {
 				for(int i=0; i< s; i++) {
 					int nx = r + dx[d];
 				    int ny = c + dy[d];
-                    System.out.println(r+" "+ c);
+          
 				    if (nx <= 0 || nx > R || ny <= 0 || ny > C) {
                         r = r - dx[d];
                         c = c - dy[d];
