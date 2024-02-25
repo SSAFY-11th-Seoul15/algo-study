@@ -1,0 +1,103 @@
+package week05.조수훈;
+import java.util.*;
+import java.io.*;
+public class Main10423 {
+    
+
+    static int [] parent;
+    static int N;
+
+    private static int find(int x){
+        if(parent[x] == x){
+            return x;
+        }
+        parent[x] = find(parent[x]);
+        return parent[x];
+    }
+
+    private static void union(int a, int b){
+        int t1 = find(a);
+        int t2 = find(b);
+        if(t1==t2){
+            return;
+        }
+        if(t1 < t2){
+            parent[t2] = t1;
+        }else{
+            parent[t1] = t2;
+        }
+    }
+
+    static class Edge implements Comparable<Edge>{
+        public int u;
+        public int v;
+        public int w;
+
+        public Edge(int u , int v, int w){
+            this.u = u;
+            this.v = v;
+            this.w = w;
+        }
+
+        @Override
+        public int compareTo(Edge o) {
+            return Integer.compare(this.w, o.w);
+        }
+
+        @Override
+        public String toString() {
+            return "Edge [u=" + u + ", v=" + v + ", w=" + w + "]";
+        }
+        
+    }
+
+    public static void main(String[] args) throws Exception{
+        
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st =new StringTokenizer(br.readLine());
+        N = Integer.parseInt(st.nextToken());
+        parent = new int[N+1];
+        for(int i =0;i < N+1 ;i++){
+            parent[i] = i;
+        }
+        int M = Integer.parseInt(st.nextToken());
+        int K = Integer.parseInt(st.nextToken());
+
+
+        st = new StringTokenizer(br.readLine());
+        int [] arr = new int[K];
+        for(int i =0;i < K ;i++){
+            arr[i] = Integer.parseInt(st.nextToken());
+        }
+        for(int i =1; i< K; i++){
+            union(arr[0],arr[i]);
+        }
+    
+        List<Edge> edges = new ArrayList<>();
+        for(int i =0;i <M;i++){
+            st = new StringTokenizer(br.readLine());
+            int u = Integer.parseInt(st.nextToken());
+            int v = Integer.parseInt(st.nextToken());
+            int w = Integer.parseInt(st.nextToken());
+            edges.add(new Edge(u, v, w));
+        }
+        Collections.sort(edges);
+        int result = 0;
+        for(Edge e: edges){
+            int u = e.u;
+            int v = e.v;
+            int w = e.w;
+
+            if(find(u)!=find(v)){
+                union(u,v);
+                result += w;
+            }
+
+
+        }
+
+        System.out.println(result);
+
+
+    }
+}

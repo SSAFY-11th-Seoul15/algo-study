@@ -1,0 +1,88 @@
+package week03.조수훈;
+import java.util.*;
+import java.io.*;
+public class Main11062 {
+    
+
+    static StringBuilder sb = new StringBuilder();
+    public static void main(String[] args) throws Exception{
+    
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        int T = Integer.parseInt(br.readLine());
+        for(int test_case = 0 ;test_case <T; test_case++){
+            int N = Integer.parseInt(br.readLine());
+            int [] arr = new int[N+1];
+            StringTokenizer st = new StringTokenizer(br.readLine());
+            for(int i =1; i< N+1;i++){
+                arr[i] = Integer.parseInt(st.nextToken());
+            }
+
+            // dp 에 담을 값은 근우가 얻게되는 최대 점수
+            // 두개의 변수는 몇번째 카드부터 몇번째 카드가 남았는지
+            int [][] dp = new int[N+2][N+1];
+
+            // 턴
+            boolean turn = false;
+
+
+            // 짝수개의 카드일때
+            if( N%2==0){
+                // 명우가 마지막에 카드를 뽑음
+                // base case
+                for(int i = 1; i< N+1; i++){
+                    dp[i][i] = 0;
+                }
+
+                for(int i=1; i< N+1; i++){
+                    for(int j=1; j+i-1<N+1; j++){
+                        int row = j;
+                        int col = j + i -1 ;
+                        if(turn){
+                            dp[row][col] = Math.max(dp[row+1][col]+arr[row] , dp[row][col-1]+arr[col]);
+
+                        }else{
+                            dp[row][col] = Math.min(dp[row+1][col] , dp[row][col-1]);
+                        }
+
+                    }
+
+                    turn = !turn;
+                }
+
+            }
+            // 홀수개의 카드일때
+            else{
+
+                // 근우가 마지막에 카드를 뽑음
+                for(int i =1; i< N+1; i++){
+                    dp[i][i] = arr[i];
+                }
+
+                for(int i=1; i< N+1; i++){
+                    for(int j=1; j+i-1<N+1; j++){
+                        int row = j;
+                        int col = j + i-1 ;
+                        if(!turn){
+                            dp[row][col] = Math.max(dp[row+1][col]+arr[row] , dp[row][col-1]+arr[col]);
+
+                        }else{
+                            dp[row][col] = Math.min(dp[row+1][col] , dp[row][col-1]);
+                        }
+
+                    }
+
+                    turn = !turn;
+                }
+
+
+            }
+            sb.append(dp[1][N]).append('\n');
+
+            
+
+        }
+        System.out.println(sb.toString());
+
+    }
+
+}
