@@ -82,93 +82,101 @@ week01
 
 ## 🚩 스터디 진행 ( 조수훈 → 박소미 → 이진석 → 이재홍 )
 ### 🐌 0주차 : 알고리즘 유형 리마인드
-|사이트|유형|문제번호|문제이름|알고리즘|담당자|
-|------|----|--------|--------|------------|------|
-|BOJ|과제|2563|[색종이](https://www.acmicpc.net/problem/2563)|구현|<div align="center">-</div>|
-|BOJ|과제|14916|[거스름돈](https://www.acmicpc.net/problem/14916)|dp|<div align="center">-</div>|
-|BOJ|과제|17413|[단어 뒤집기 2](https://www.acmicpc.net/problem/17413)|자료구조|<div align="center">-</div>|
-|BOJ|과제|10451|[순열 사이클](https://www.acmicpc.net/problem/10451)|그래프|<div align="center">-</div>|
-|BOJ|과제|1439|[뒤집기](https://www.acmicpc.net/problem/1439)|자료구조|<div align="center">-</div>|
-|BOJ|과제|1449|[수리공 항승](https://www.acmicpc.net/problem/1449)|문자열|<div align="center">-</div>|
-|BOJ|과제|14244|[트리 만들기](https://www.acmicpc.net/problem/14244)|트리|<div align="center">-</div>|
-|BOJ|과제|7795|[먹을 것인가 먹힐 것인가](https://www.acmicpc.net/problem/7795)|이분탐색|<div align="center">-</div>|
-|BOJ|과제|2167|[2차원 배열의 합](https://www.acmicpc.net/problem/2167)|누적합|<div align="center">-</div>|
-|BOJ|과제|11582|[치킨 TOP N](https://www.acmicpc.net/problem/11582)|분할정복|<div align="center">-</div>|
-|BOJ|과제|2295|[세 수의 합](https://www.acmicpc.net/problem/2295)|중간에서 만나기|<div align="center">-</div>|
+|날짜|사이트|유형|문제번호|문제이름|알고리즘|담당자|
+|----|------|----|--------|--------|------------|------|
+|01/21|BOJ|과제|2563|[색종이](https://www.acmicpc.net/problem/2563)|구현|<div align="center">-</div>|
+|01/21|BOJ|과제|14916|[거스름돈](https://www.acmicpc.net/problem/14916)|dp|<div align="center">-</div>|
+|01/21|BOJ|과제|17413|[단어 뒤집기 2](https://www.acmicpc.net/problem/17413)|자료구조|<div align="center">-</div>|
+|01/21|BOJ|과제|10451|[순열 사이클](https://www.acmicpc.net/problem/10451)|그래프|<div align="center">-</div>|
+|01/21|BOJ|과제|1439|[뒤집기](https://www.acmicpc.net/problem/1439)|자료구조|<div align="center">-</div>|
+|01/21|BOJ|과제|1449|[수리공 항승](https://www.acmicpc.net/problem/1449)|문자열|<div align="center">-</div>|
+|01/21|BOJ|과제|14244|[트리 만들기](https://www.acmicpc.net/problem/14244)|트리|<div align="center">-</div>|
+|01/21|BOJ|과제|7795|[먹을 것인가 먹힐 것인가](https://www.acmicpc.net/problem/7795)|이분탐색|<div align="center">-</div>|
+|01/21|BOJ|과제|2167|[2차원 배열의 합](https://www.acmicpc.net/problem/2167)|누적합|<div align="center">-</div>|
+|01/21|BOJ|과제|11582|[치킨 TOP N](https://www.acmicpc.net/problem/11582)|분할정복|<div align="center">-</div>|
+|01/21|BOJ|과제|2295|[세 수의 합](https://www.acmicpc.net/problem/2295)|중간에서 만나기|<div align="center">-</div>|
 
 </br>
 
 ### 🐌 1주차 : 구현/백트레킹 연습
-|사이트|유형|문제번호|문제이름|담당자|
-|------|----|--------|--------|------|
-|BOJ|월|2606|[바이러스](https://www.acmicpc.net/problem/2606)|조수훈|
-|BOJ|화|1194|[달이 차오른다, 가자.](https://www.acmicpc.net/problem/1194)|박소미|
-|BOJ|수|17135|[캐슬 디펜스](https://www.acmicpc.net/problem/17135)|이진석|
-|BOJ|목|15686|[치킨 배달](https://www.acmicpc.net/problem/15686))|이재홍|
-|BOJ|금|1987|[알파벳](https://www.acmicpc.net/problem/1987)|조수훈|
-|BOJ|과제|11559|[Puyo Puyo](https://www.acmicpc.net/problem/11559)|<div align="center">-</div>|
-|BOJ|과제|6987|[월드컵](https://www.acmicpc.net/problem/6987)|<div align="center">-</div>|
-|BOJ|과제|15898|[피아의 아틀리에 신비한 대회의 연금술사](https://www.acmicpc.net/problem/15898)|<div align="center">-</div>|
-|BOJ|과제|1261|[알고스팟](https://www.acmicpc.net/problem/1261)|<div align="center">-</div>|
-|BOJ|과제|2146|[다리 만들기](https://www.acmicpc.net/problem/2146)|<div align="center">-</div>|
-|BOJ|과제|1600|[말이 되고픈 원숭이](https://www.acmicpc.net/problem/1600)|<div align="center">-</div>|
-|BOJ|과제|2933|[미네랄](https://www.acmicpc.net/problem/2933)|<div align="center">-</div>|
-|BOJ|과제|21608|[상어 초등학교](https://www.acmicpc.net/problem/21608)|<div align="center">-</div>|
-|BOJ|과제|1799|[비숍](https://www.acmicpc.net/problem/1799)|<div align="center">-</div>|
-|BOJ|과제|16987|[계란으로 계란치기](https://www.acmicpc.net/problem/16987)|<div align="center">-</div>|
-|BOJ|과제|9663|[N-Queen](https://www.acmicpc.net/problem/9663)|<div align="center">-</div>|
-|BOJ|과제|5373|[큐빙](https://www.acmicpc.net/problem/5373)|<div align="center">-</div>|
+|날짜|사이트|유형|문제번호|문제이름|담당자|
+|----|------|----|--------|--------|------|
+|01/22|BOJ|월|2606|[바이러스](https://www.acmicpc.net/problem/2606)|조수훈|
+|01/23|BOJ|화|1194|[달이 차오른다, 가자.](https://www.acmicpc.net/problem/1194)|박소미|
+|01/24|BOJ|수|17135|[캐슬 디펜스](https://www.acmicpc.net/problem/17135)|이진석|
+|01/25|BOJ|목|15686|[치킨 배달](https://www.acmicpc.net/problem/15686))|이재홍|
+|01/26|BOJ|금|1987|[알파벳](https://www.acmicpc.net/problem/1987)|조수훈|
+|01/28|BOJ|과제|11559|[Puyo Puyo](https://www.acmicpc.net/problem/11559)|<div align="center">-</div>|
+|01/28|BOJ|과제|6987|[월드컵](https://www.acmicpc.net/problem/6987)|<div align="center">-</div>|
+|01/28|BOJ|과제|15898|[피아의 아틀리에 신비한 대회의 연금술사](https://www.acmicpc.net/problem/15898)|<div align="center">-</div>|
+|01/28|BOJ|과제|1261|[알고스팟](https://www.acmicpc.net/problem/1261)|<div align="center">-</div>|
+|01/28|BOJ|과제|2146|[다리 만들기](https://www.acmicpc.net/problem/2146)|<div align="center">-</div>|
+|01/28|BOJ|과제|1600|[말이 되고픈 원숭이](https://www.acmicpc.net/problem/1600)|<div align="center">-</div>|
+|01/28|BOJ|과제|2933|[미네랄](https://www.acmicpc.net/problem/2933)|<div align="center">-</div>|
+|01/28|BOJ|과제|21608|[상어 초등학교](https://www.acmicpc.net/problem/21608)|<div align="center">-</div>|
+|01/28|BOJ|과제|1799|[비숍](https://www.acmicpc.net/problem/1799)|<div align="center">-</div>|
+|01/28|BOJ|과제|16987|[계란으로 계란치기](https://www.acmicpc.net/problem/16987)|<div align="center">-</div>|
+|01/28|BOJ|과제|9663|[N-Queen](https://www.acmicpc.net/problem/9663)|<div align="center">-</div>|
+|01/28|BOJ|과제|5373|[큐빙](https://www.acmicpc.net/problem/5373)|<div align="center">-</div>|
 
 </br>
 
 ### 🐌 2주차 : 자료구조 연습
-|사이트|유형|문제번호|문제이름|담당자|
-|------|----|--------|--------|------|
-|BOJ|월|9202|[Boggle](https://www.acmicpc.net/problem/9202)|<div align="center">박소미</div>|
-|BOJ|화|1655|[가운데를 말해요](https://www.acmicpc.net/problem/1655)|<div align="center">이진석</div>|
-|BOJ|수|1620|[나는야 포켓몬 마스터 이다솜](https://www.acmicpc.net/problem/1620)|<div align="center">이재홍</div>|
-|BOJ|목|6549|[히스토그램에서 가장 큰 직사각형](https://www.acmicpc.net/problem/6549)|<div align="center">조수훈</div>|
-|BOJ|금|2094|[강수량](https://www.acmicpc.net/problem/2094)|<div align="center">박소미</div>|
-|BOJ|과제|10828|[스택](https://www.acmicpc.net/problem/10828)|<div align="center">-</div>|
-|BOJ|과제|10845|[큐](https://www.acmicpc.net/problem/10845)|<div align="center">-</div>|
-|BOJ|과제|1991|[트리 순회](https://www.acmicpc.net/problem/1991)|<div align="center">-</div>|
-|BOJ|과제|11279|[최대 힙](https://www.acmicpc.net/problem/11279)|<div align="center">-</div>|
-|BOJ|과제|5639|[이진 검색 트리](https://www.acmicpc.net/problem/5639)|<div align="center">-</div>|
-|BOJ|과제|3020|[개똥벌레](https://www.acmicpc.net/problem/3020)|<div align="center">-</div>|
-|BOJ|과제|2252|[줄세우기](https://www.acmicpc.net/problem/2252)|<div align="center">-</div>|
-|BOJ|과제|1854|[K번째 최단경로 찾기](https://www.acmicpc.net/problem/1854)|<div align="center">-</div>|
-|BOJ|과제|2013|[선그리기](https://www.acmicpc.net/problem/2013)|<div align="center">-</div>|
-|BOJ|과제|17619|[개구리점프](https://www.acmicpc.net/problem/17619)|<div align="center">-</div>|
-|BOJ|과제|20166|[문자열 지옥에 빠진 호석](https://www.acmicpc.net/problem/20166)|<div align="center">-</div>|
-|BOJ|과제|16120|[PPAP](https://www.acmicpc.net/problem/16120)|<div align="center">-</div>|
-|BOJ|과제|11266|[단점](https://www.acmicpc.net/problem/11266)|<div align="center">-</div>|
-|BOJ|과제|17398|[통신망 분할](https://www.acmicpc.net/problem/17398)|<div align="center">-</div>|
-|BOJ|과제|11438|[LCA 2](https://www.acmicpc.net/problem/11438)|<div align="center">-</div>|
-|BOJ|과제|3830|[교수님은 기다리지 않는다](https://www.acmicpc.net/problem/3830)|<div align="center">-</div>|
-|BOJ|과제|1626|[두 번째로 작은 스패닝 트리](https://www.acmicpc.net/problem/1626)|<div align="center">-</div>|
+|날짜|사이트|유형|문제번호|문제이름|담당자|
+|----|------|----|--------|--------|------|
+|01/29|BOJ|월|9202|[Boggle](https://www.acmicpc.net/problem/9202)|<div align="center">박소미</div>|
+|01/30|BOJ|화|1655|[가운데를 말해요](https://www.acmicpc.net/problem/1655)|<div align="center">이진석</div>|
+|01/31|BOJ|수|1620|[나는야 포켓몬 마스터 이다솜](https://www.acmicpc.net/problem/1620)|<div align="center">이재홍</div>|
+|02/01|BOJ|목|6549|[히스토그램에서 가장 큰 직사각형](https://www.acmicpc.net/problem/6549)|<div align="center">조수훈</div>|
+|02/02|BOJ|금|2094|[강수량](https://www.acmicpc.net/problem/2094)|<div align="center">박소미</div>|
+|02/04|BOJ|과제|10828|[스택](https://www.acmicpc.net/problem/10828)|<div align="center">-</div>|
+|02/04|BOJ|과제|10845|[큐](https://www.acmicpc.net/problem/10845)|<div align="center">-</div>|
+|02/04|BOJ|과제|1991|[트리 순회](https://www.acmicpc.net/problem/1991)|<div align="center">-</div>|
+|02/04|BOJ|과제|11279|[최대 힙](https://www.acmicpc.net/problem/11279)|<div align="center">-</div>|
+|02/04|BOJ|과제|5639|[이진 검색 트리](https://www.acmicpc.net/problem/5639)|<div align="center">-</div>|
+|02/04|BOJ|과제|3020|[개똥벌레](https://www.acmicpc.net/problem/3020)|<div align="center">-</div>|
+|02/04|BOJ|과제|2252|[줄세우기](https://www.acmicpc.net/problem/2252)|<div align="center">-</div>|
+|02/04|BOJ|과제|1854|[K번째 최단경로 찾기](https://www.acmicpc.net/problem/1854)|<div align="center">-</div>|
+|02/04|BOJ|과제|2013|[선그리기](https://www.acmicpc.net/problem/2013)|<div align="center">-</div>|
+|02/04|BOJ|과제|17619|[개구리점프](https://www.acmicpc.net/problem/17619)|<div align="center">-</div>|
+|02/04|BOJ|과제|20166|[문자열 지옥에 빠진 호석](https://www.acmicpc.net/problem/20166)|<div align="center">-</div>|
+|02/04|BOJ|과제|16120|[PPAP](https://www.acmicpc.net/problem/16120)|<div align="center">-</div>|
+|02/04|BOJ|과제|11266|[단점](https://www.acmicpc.net/problem/11266)|<div align="center">-</div>|
+|02/04|BOJ|과제|17398|[통신망 분할](https://www.acmicpc.net/problem/17398)|<div align="center">-</div>|
+|02/04|BOJ|과제|11438|[LCA 2](https://www.acmicpc.net/problem/11438)|<div align="center">-</div>|
+|02/04|BOJ|과제|3830|[교수님은 기다리지 않는다](https://www.acmicpc.net/problem/3830)|<div align="center">-</div>|
+|02/04|BOJ|과제|1626|[두 번째로 작은 스패닝 트리](https://www.acmicpc.net/problem/1626)|<div align="center">-</div>|
 
 </br>
 
 ### 🐌 3주차 : 랜덤 연습
-|사이트|유형|문제번호|문제이름|담당자|
-|------|----|--------|--------|------|
-|BOJ|월|17143|[낚시왕](https://www.acmicpc.net/problem/17143)|<div align="center">이진석</div>|
-|BOJ|화|2493|[탑](https://www.acmicpc.net/problem/2493)|<div align="center">이재홍</div>|
-|BOJ|수|1062|[가르침](https://www.acmicpc.net/problem/1062)|<div align="center">조수훈</div>|
-|BOJ|목|11062|[카드 게임](https://www.acmicpc.net/problem/11062)|<div align="center">박소미</div>|
-|BOJ|금|14238|[출근 기록](https://www.acmicpc.net/problem/14238)|<div align="center">이진석</div>|
-|BOJ|과제|미공개|미공개|<div align="center">-</div>|
+|날짜|사이트|유형|문제번호|문제이름|담당자|
+|----|------|----|--------|--------|------|
+|02/05|BOJ|월|17143|[낚시왕](https://www.acmicpc.net/problem/17143)|<div align="center">이진석</div>|
+|02/06|BOJ|화|2493|[탑](https://www.acmicpc.net/problem/2493)|<div align="center">이재홍</div>|
+|02/07|BOJ|수|1062|[가르침](https://www.acmicpc.net/problem/1062)|<div align="center">조수훈</div>|
+|02/08|BOJ|목|11062|[카드 게임](https://www.acmicpc.net/problem/11062)|<div align="center">박소미</div>|
+|02/09|BOJ|금|14238|[출근 기록](https://www.acmicpc.net/problem/14238)|<div align="center">이진석</div>|
 
 </br>
 
 ### 🐌 4주차 : B형 기출
-|사이트|유형|문제번호|문제이름|담당자|
-|------|----|--------|--------|------|
-|BOJ|월|미정|[미정](https://www.acmicpc.net/problem)|<div align="center">-</div>|
-|BOJ|화|미정|[미정](https://www.acmicpc.net/problem)|<div align="center">-</div>|
-|BOJ|수|미정|[미정](https://www.acmicpc.net/problem)|<div align="center">-</div>|
-|BOJ|목|미정|[미정](https://www.acmicpc.net/problem)|<div align="center">-</div>|
-|BOJ|금|미정|[미정](https://www.acmicpc.net/problem)|<div align="center">-</div>|
-|BOJ|과제|미공개|미공개|<div align="center">-</div>|
+|날짜|사이트|유형|문제번호|문제이름|담당자|
+|----|------|----|--------|--------|------|
+|02/13|SWEA|화|19118|[언덕길](https://swexpertacademy.com/main/code/problem/problemDetail.do?problemLevel=5&contestProbId=AYxCewMqiqwDFASu&categoryId=AYxCewMqiqwDFASu&categoryType=CODE&problemTitle=&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=5&pageSize=10&pageIndex=1)|<div align="center">이재홍</div>|
+|02/14|BOJ|수|12869|[뮤탈리스크](https://www.acmicpc.net/problem/12869)|<div align="center">조수훈</div>|
+|02/15|SWEA|목|5650|[핀볼 게임](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRF8s6ezEDFAUo)|<div align="center">박소미</div>|
+|02/16|BOJ|금|2352|[Dance Dance Revolution](https://www.acmicpc.net/problem/2342)|<div align="center">이진석</div>|
+
+</br>
+
+### 🐌 5주차 : 취약파트
+|날짜|사이트|유형|문제번호|문제이름|담당자|
+|----|------|----|--------|--------|------|
+|02/19|BOJ|월|19118|[전기가 부족해](https://www.acmicpc.net/problem/10423)|<div align="center">이재홍</div>|
+|02/20|BOJ|화|12869|[동전1](https://www.acmicpc.net/problem/2293)|<div align="center">조수훈</div>|
+|02/21|BOJ|수|1045|[도로](https://www.acmicpc.net/problem/1045)|<div align="center">박소미</div>|
+|02/22|BOJ|목|7453|[합이 0인 네 정수](https://www.acmicpc.net/problem/7453)|<div align="center">이진석</div>|
+|02/23|BOJ|금|2352|[반도체 설계](https://www.acmicpc.net/problem/2352)|<div align="center">이재홍</div>|
 
 </br>
