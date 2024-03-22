@@ -10,37 +10,29 @@ public class Main2352 {
         StringTokenizer st = new StringTokenizer(br.readLine());
         int [] arr = new int[n+1];
         int [] dp = new int[n+1];
-        int [] dp2 = new int[n+1];
-        int result = 0;
+   
+        int result = 1;
    
         for(int i =1;i < n+1 ;i++){
             arr[i] = Integer.parseInt(st.nextToken());
             dp[i] = 1;
-            dp2[i] = 1;
+        }
+
+        int len = 1;
+        int idx = 1;
+        for(int i =1 ; i< n+1 ;i++){
+            if(arr[i] > dp[len]){
+                len +=1;
+                dp[len] = arr[i];
+            }else{
+                for(idx = 1; idx<=len; idx++){
+                    if(arr[i] <= dp[idx]) break;
+                }
+                dp[idx] =arr[i];
+            }
         }
         
-        // 증가하는 부분 수열
-        for(int i = 2 ; i< n+1; i++){
-            for(int j = 1; j< i; j++){
-                if( arr[i] > arr[j] ){
-                    dp[i] = Math.max(dp[j]+1, dp[i]);
-                    result = Math.max(dp[i],result);
-                }
-            } 
-        }
-  
-
-        // // 감소하는 부분 수열
-        // for(int i = 2 ; i< n+1; i++){
-        //     for(int j = 1; j< i; j++){
-        //         if( arr[i] < arr[j]){
-        //             dp2[i] = Math.max(dp2[j]+1, dp2[i]);
-        //             result = Math.max(dp2[i],result);
-        //         }
-        //     } 
-        // }
-      
-        System.out.println(result);
-    }
+        System.out.println(len);
+    
 
 }
